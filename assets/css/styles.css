@@ -503,3 +503,37 @@ h3 {
     width: 100%;
   }
 }
+.contact-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 18px;
+}
+
+.contact-card {
+  min-height: 300px;
+  padding: 28px;
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  background: rgba(21, 31, 56, 0.72);
+}
+
+.contact-card p {
+  color: var(--muted);
+}
+
+.contact-card h2 {
+  font-size: clamp(1.8rem, 3vw, 2.5rem);
+}
+
+.contact-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-top: 24px;
+}
+
+@media (max-width: 860px) {
+  .contact-grid {
+    grid-template-columns: 1fr;
+  }
+}
