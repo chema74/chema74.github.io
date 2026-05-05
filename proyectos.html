@@ -8,17 +8,33 @@
 
   <meta
     name="description"
-    content="Proyectos de portfolio técnico de Txema Ríos: agentes de IA aplicada, RAG documental, automatización, licitaciones, contratos, comercio exterior y dashboards."
+    content="Proyectos de portfolio técnico de Txema Ríos: agentes de inteligencia artificial aplicada, RAG documental, automatización, licitaciones, contratos, comercio exterior y dashboards."
   />
+  <meta name="author" content="Txema Ríos" />
+  <meta name="theme-color" content="#0b1020" />
+  <meta name="robots" content="index, follow" />
+
+  <link rel="canonical" href="https://chema74.github.io/proyectos.html" />
+
+  <meta property="og:title" content="Proyectos | Txema Ríos" />
+  <meta
+    property="og:description"
+    content="Catálogo de demos y prototipos técnicos de inteligencia artificial aplicada, agentes, RAG documental y automatización."
+  />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://chema74.github.io/proyectos.html" />
+  <meta name="twitter:card" content="summary" />
 
   <link rel="stylesheet" href="assets/css/styles.css" />
 </head>
 
 <body>
+  <a class="skip-link" href="#contenido">Saltar al contenido principal</a>
+
   <header class="site-header">
     <div class="container header-inner">
       <a class="brand" href="index.html" aria-label="Inicio">
-        <span class="brand-mark">IA</span>
+        <span class="brand-mark" aria-hidden="true">IA</span>
         <span class="brand-text">
           <strong>Txema Ríos</strong>
           <small>Portfolio técnico</small>
@@ -27,28 +43,60 @@
 
       <nav class="main-nav" aria-label="Navegación principal">
         <a href="index.html">Inicio</a>
-        <a href="proyectos.html">Proyectos</a>
+        <a class="active" href="proyectos.html" aria-current="page">Proyectos</a>
         <a href="productos.html">Productos</a>
         <a href="index.html#areas">Áreas</a>
         <a href="index.html#perfil">Perfil</a>
+        <a href="contacto.html">Contacto</a>
         <a href="https://github.com/chema74" target="_blank" rel="noopener noreferrer">GitHub</a>
       </nav>
     </div>
   </header>
 
-  <main>
+  <main id="contenido">
     <section class="hero hero-compact">
-      <div class="container">
-        <p class="eyebrow">Portfolio · demos · prototipos ejecutables</p>
-        <h1>Proyectos de IA aplicada</h1>
-        <p class="hero-lead">
-          Selección completa de proyectos del bloque <code>portfolio/</code>: agentes, RAG documental,
-          análisis de negocio, contratación, normativa, atención al cliente y dashboards consultables en lenguaje natural.
-        </p>
-        <p class="hero-note">
-          Estos proyectos están pensados como evidencia técnica: muestran estructura, criterio, límites y aplicación real,
-          no como productos cerrados de uso empresarial final.
-        </p>
+      <div class="container page-hero-grid">
+        <div>
+          <p class="eyebrow">Portfolio · demos · prototipos ejecutables</p>
+          <h1>Proyectos de inteligencia artificial aplicada</h1>
+          <p class="hero-lead">
+            Selección completa del bloque <code>portfolio/</code>: agentes, RAG
+            (<em>Retrieval-Augmented Generation – Generación Aumentada por Recuperación</em>) documental,
+            análisis de negocio, contratación, normativa, atención al cliente y dashboards consultables en lenguaje natural.
+          </p>
+          <p class="hero-note">
+            Cada proyecto funciona como evidencia técnica. Muestra enfoque, estructura y límites; no pretende presentarse
+            como solución empresarial cerrada.
+          </p>
+        </div>
+
+        <aside class="page-summary-card">
+          <span class="card-label">Catálogo público</span>
+          <strong>10 proyectos</strong>
+          <p>Demos orientadas a dominios concretos, con enlaces directos al repositorio principal.</p>
+        </aside>
+      </div>
+    </section>
+
+    <section class="section section-tight">
+      <div class="container lens-grid" aria-label="Lectura rápida del catálogo">
+        <article>
+          <span class="area-index">01</span>
+          <h2>Agentes</h2>
+          <p>Flujos supervisados, herramientas, clasificación, soporte y toma de decisiones asistida.</p>
+        </article>
+
+        <article>
+          <span class="area-index">02</span>
+          <h2>Documentos</h2>
+          <p>Recuperación semántica, consulta de contratos, normativa y documentación interna con evidencias.</p>
+        </article>
+
+        <article>
+          <span class="area-index">03</span>
+          <h2>Negocio</h2>
+          <p>Comercio exterior, licitaciones, evaluación de ideas, dashboards y lenguaje natural sobre datos.</p>
+        </article>
       </div>
     </section>
 
@@ -58,22 +106,25 @@
           <p class="eyebrow">10 proyectos</p>
           <h2>Demos y prototipos públicos</h2>
           <p>
-            Cada proyecto representa una línea de trabajo distinta dentro de la IA
-            (<em>Artificial Intelligence – Inteligencia Artificial</em>) aplicada.
+            Una lectura ordenada del portfolio: qué problema aborda cada proyecto, en qué dominio opera
+            y qué tipo de capacidad técnica permite revisar.
           </p>
         </div>
 
         <div class="cards-grid cards-grid-wide">
-          <article class="project-card">
-            <span class="project-kicker">P01</span>
+          <article class="project-card featured-card">
+            <div class="card-topline">
+              <span class="project-kicker">P01</span>
+              <span class="scope-pill">Análisis estratégico</span>
+            </div>
             <h3>Inteligencia Comercial Internacional</h3>
             <p>
-              Agente orientado a comparar países, sectores y oportunidades de mercado mediante análisis asistido por IA.
+              Agente orientado a comparar países, sectores y oportunidades de mercado mediante análisis asistido por inteligencia artificial.
             </p>
             <div class="tags">
               <span>Comercio exterior</span>
-              <span>Análisis</span>
               <span>Mercados</span>
+              <span>Riesgo-país</span>
             </div>
             <a href="https://github.com/chema74/Agentes_IA/tree/main/portfolio/p01-inteligencia-comercial-internacional" target="_blank" rel="noopener noreferrer">
               Ver proyecto →
@@ -81,7 +132,10 @@
           </article>
 
           <article class="project-card">
-            <span class="project-kicker">P02</span>
+            <div class="card-topline">
+              <span class="project-kicker">P02</span>
+              <span class="scope-pill">Agente operativo</span>
+            </div>
             <h3>Copiloto Operativo Multi-Herramienta</h3>
             <p>
               Prototipo de agente capaz de coordinar herramientas y resolver tareas encadenadas de forma asistida.
@@ -97,7 +151,10 @@
           </article>
 
           <article class="project-card">
-            <span class="project-kicker">P03</span>
+            <div class="card-topline">
+              <span class="project-kicker">P03</span>
+              <span class="scope-pill">Sector público</span>
+            </div>
             <h3>Asistente de Análisis de Licitaciones</h3>
             <p>
               Demo para apoyar la revisión inicial de oportunidades públicas, criterios relevantes y encaje preliminar.
@@ -105,7 +162,7 @@
             <div class="tags">
               <span>Licitaciones</span>
               <span>Análisis documental</span>
-              <span>Sector público</span>
+              <span>Criterios</span>
             </div>
             <a href="https://github.com/chema74/Agentes_IA/tree/main/portfolio/p03-agente-licitaciones" target="_blank" rel="noopener noreferrer">
               Ver proyecto →
@@ -113,14 +170,17 @@
           </article>
 
           <article class="project-card">
-            <span class="project-kicker">P04</span>
+            <div class="card-topline">
+              <span class="project-kicker">P04</span>
+              <span class="scope-pill">Recursos humanos</span>
+            </div>
             <h3>Asistente de Preselección de Candidatos</h3>
             <p>
-              Prototipo para clasificar perfiles, comparar candidaturas contra criterios y apoyar procesos de selección.
+              Prototipo para clasificar perfiles, comparar candidaturas contra criterios y apoyar procesos de selección con revisión humana.
             </p>
             <div class="tags">
-              <span>RR. HH.</span>
               <span>Clasificación</span>
+              <span>Candidaturas</span>
               <span>Supervisión humana</span>
             </div>
             <a href="https://github.com/chema74/Agentes_IA/tree/main/portfolio/p04-agente-rrhh-candidatos" target="_blank" rel="noopener noreferrer">
@@ -128,17 +188,19 @@
             </a>
           </article>
 
-          <article class="project-card">
-            <span class="project-kicker">P05</span>
+          <article class="project-card featured-card">
+            <div class="card-topline">
+              <span class="project-kicker">P05</span>
+              <span class="scope-pill">RAG documental</span>
+            </div>
             <h3>RAG de Documentación Interna</h3>
             <p>
-              Demo de RAG (<em>Retrieval-Augmented Generation – Generación Aumentada por Recuperación</em>)
-              para consultar documentos internos en lenguaje natural.
+              Demo para consultar documentos internos en lenguaje natural mediante recuperación contextual y respuestas apoyadas en fragmentos relevantes.
             </p>
             <div class="tags">
-              <span>RAG</span>
-              <span>PDF</span>
+              <span>Recuperación semántica</span>
               <span>Documentación</span>
+              <span>Evidencias</span>
             </div>
             <a href="https://github.com/chema74/Agentes_IA/tree/main/portfolio/p05-rag-documentacion-interna" target="_blank" rel="noopener noreferrer">
               Ver proyecto →
@@ -146,15 +208,18 @@
           </article>
 
           <article class="project-card">
-            <span class="project-kicker">P06</span>
+            <div class="card-topline">
+              <span class="project-kicker">P06</span>
+              <span class="scope-pill">Contratos</span>
+            </div>
             <h3>Consulta Supervisada de Contratos</h3>
             <p>
-              Demo documental para consultar contratos, recuperar fragmentos relevantes y responder con contexto.
+              Demo documental para consultar contratos, recuperar fragmentos relevantes y responder con contexto verificable.
             </p>
             <div class="tags">
               <span>Contratos</span>
-              <span>RAG</span>
-              <span>Evidencias</span>
+              <span>Consulta documental</span>
+              <span>Trazabilidad</span>
             </div>
             <a href="https://github.com/chema74/Agentes_IA/tree/main/portfolio/p06-rag-contratos-legales" target="_blank" rel="noopener noreferrer">
               Ver proyecto →
@@ -162,15 +227,18 @@
           </article>
 
           <article class="project-card">
-            <span class="project-kicker">P07</span>
+            <div class="card-topline">
+              <span class="project-kicker">P07</span>
+              <span class="scope-pill">Soporte</span>
+            </div>
             <h3>Asistente de Atención al Cliente Supervisado</h3>
             <p>
-              Chatbot de primer nivel orientado a soporte, preguntas frecuentes y posible escalado humano.
+              Chatbot de primer nivel orientado a soporte, preguntas frecuentes, consistencia de respuesta y posible escalado humano.
             </p>
             <div class="tags">
-              <span>Soporte</span>
+              <span>Atención al cliente</span>
               <span>Chatbot</span>
-              <span>FAQs</span>
+              <span>Escalado</span>
             </div>
             <a href="https://github.com/chema74/Agentes_IA/tree/main/portfolio/p07-chatbot-atencion-cliente" target="_blank" rel="noopener noreferrer">
               Ver proyecto →
@@ -178,15 +246,18 @@
           </article>
 
           <article class="project-card">
-            <span class="project-kicker">P08</span>
+            <div class="card-topline">
+              <span class="project-kicker">P08</span>
+              <span class="scope-pill">Normativa</span>
+            </div>
             <h3>Asistente de Consulta Normativa Comercial</h3>
             <p>
-              RAG aplicado a normativa comercial, comercio exterior y recuperación de información regulatoria.
+              Proyecto aplicado a normativa comercial, comercio exterior y recuperación de información regulatoria.
             </p>
             <div class="tags">
-              <span>Normativa</span>
-              <span>Comercio</span>
               <span>Regulación</span>
+              <span>Comercio</span>
+              <span>Consulta normativa</span>
             </div>
             <a href="https://github.com/chema74/Agentes_IA/tree/main/portfolio/p08-rag-normativa-comercio" target="_blank" rel="noopener noreferrer">
               Ver proyecto →
@@ -194,15 +265,18 @@
           </article>
 
           <article class="project-card">
-            <span class="project-kicker">P09</span>
+            <div class="card-topline">
+              <span class="project-kicker">P09</span>
+              <span class="scope-pill">Validación inicial</span>
+            </div>
             <h3>Evaluador Inicial de Ideas de Negocio</h3>
             <p>
               Herramienta de exploración para analizar ideas, priorizar hipótesis y estructurar criterios de viabilidad.
             </p>
             <div class="tags">
               <span>Negocio</span>
-              <span>Evaluación</span>
-              <span>Decisión</span>
+              <span>Hipótesis</span>
+              <span>Priorización</span>
             </div>
             <a href="https://github.com/chema74/Agentes_IA/tree/main/portfolio/p09-evaluador-ideas-negocio" target="_blank" rel="noopener noreferrer">
               Ver proyecto →
@@ -210,15 +284,18 @@
           </article>
 
           <article class="project-card">
-            <span class="project-kicker">P10</span>
+            <div class="card-topline">
+              <span class="project-kicker">P10</span>
+              <span class="scope-pill">Datos</span>
+            </div>
             <h3>Dashboard Consultable en Lenguaje Natural</h3>
             <p>
               Demo para consultar información tabular con lenguaje natural y acercar datos de negocio a usuarios no técnicos.
             </p>
             <div class="tags">
               <span>Dashboard</span>
-              <span>Datos</span>
               <span>Lenguaje natural</span>
+              <span>Datos de negocio</span>
             </div>
             <a href="https://github.com/chema74/Agentes_IA/tree/main/portfolio/p10-dashboard-lenguaje-natural" target="_blank" rel="noopener noreferrer">
               Ver proyecto →
@@ -240,6 +317,7 @@
       <div class="footer-links">
         <a href="index.html">Inicio</a>
         <a href="productos.html">Productos</a>
+        <a href="contacto.html">Contacto</a>
         <a href="https://github.com/chema74" target="_blank" rel="noopener noreferrer">GitHub</a>
       </div>
     </div>

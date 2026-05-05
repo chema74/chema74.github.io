@@ -8,17 +8,33 @@
 
   <meta
     name="description"
-    content="Productos técnicos y agentes avanzados de Txema Ríos: obligaciones contractuales, compliance, inteligencia geopolítica, logística, educación, legal y automatización."
+    content="Productos técnicos y agentes avanzados de Txema Ríos: obligaciones contractuales, cumplimiento normativo, inteligencia geopolítica, logística, educación, legal y automatización."
   />
+  <meta name="author" content="Txema Ríos" />
+  <meta name="theme-color" content="#0b1020" />
+  <meta name="robots" content="index, follow" />
+
+  <link rel="canonical" href="https://chema74.github.io/productos.html" />
+
+  <meta property="og:title" content="Productos Técnicos | Txema Ríos" />
+  <meta
+    property="og:description"
+    content="Líneas técnicas demostrables: agentes supervisados, orquestadores, documentación, cumplimiento y procesos de negocio."
+  />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://chema74.github.io/productos.html" />
+  <meta name="twitter:card" content="summary" />
 
   <link rel="stylesheet" href="assets/css/styles.css" />
 </head>
 
 <body>
+  <a class="skip-link" href="#contenido">Saltar al contenido principal</a>
+
   <header class="site-header">
     <div class="container header-inner">
       <a class="brand" href="index.html" aria-label="Inicio">
-        <span class="brand-mark">IA</span>
+        <span class="brand-mark" aria-hidden="true">IA</span>
         <span class="brand-text">
           <strong>Txema Ríos</strong>
           <small>Portfolio técnico</small>
@@ -28,26 +44,48 @@
       <nav class="main-nav" aria-label="Navegación principal">
         <a href="index.html">Inicio</a>
         <a href="proyectos.html">Proyectos</a>
-        <a href="productos.html">Productos</a>
+        <a class="active" href="productos.html" aria-current="page">Productos</a>
         <a href="index.html#areas">Áreas</a>
         <a href="index.html#perfil">Perfil</a>
+        <a href="contacto.html">Contacto</a>
         <a href="https://github.com/chema74" target="_blank" rel="noopener noreferrer">GitHub</a>
       </nav>
     </div>
   </header>
 
-  <main>
+  <main id="contenido">
     <section class="hero hero-compact">
-      <div class="container">
-        <p class="eyebrow">Agentes · arquitectura · laboratorio avanzado</p>
-        <h1>Productos técnicos y agentes avanzados</h1>
-        <p class="hero-lead">
-          Selección completa del bloque <code>products/</code>: agentes con arquitectura más madura, separación de capas,
-          pruebas, documentación y vocación de evolución técnica.
-        </p>
-        <p class="hero-note">
-          No todos estos proyectos deben leerse como productos comerciales finales. Algunos funcionan como laboratorio técnico
-          para explorar dominios sensibles, orquestación, evidencias, cumplimiento normativo y supervisión humana.
+      <div class="container page-hero-grid">
+        <div>
+          <p class="eyebrow">Agentes · arquitectura · laboratorio avanzado</p>
+          <h1>Productos técnicos y agentes avanzados</h1>
+          <p class="hero-lead">
+            Selección completa del bloque <code>products/</code>: agentes con arquitectura más madura,
+            separación de capas, pruebas, documentación y vocación de evolución técnica.
+          </p>
+          <p class="hero-note">
+            Esta sección presenta prototipos y líneas demostrables. No se describen como promesas comerciales cerradas,
+            sino como evidencia de diseño, dominio, orquestación y límites.
+          </p>
+        </div>
+
+        <aside class="page-summary-card">
+          <span class="card-label">Bloque products/</span>
+          <strong>9 líneas técnicas</strong>
+          <p>Agentes, orquestadores y sistemas supervisados con orientación a procesos reales.</p>
+        </aside>
+      </div>
+    </section>
+
+    <section class="section section-tight">
+      <div class="container notice-panel notice-panel-compact">
+        <div>
+          <p class="eyebrow">Lectura prudente</p>
+          <h2>Productos técnicos, no promesas de autonomía total.</h2>
+        </div>
+        <p>
+          Los dominios legales, psicológicos, educativos o normativos requieren supervisión profesional. Aquí se muestran
+          arquitecturas de apoyo, extracción, organización y decisión asistida, no sustitución del criterio humano.
         </p>
       </div>
     </section>
@@ -56,26 +94,29 @@
       <div class="container">
         <div class="section-heading">
           <p class="eyebrow">9 productos técnicos</p>
-          <h2>Agentes y orquestadores</h2>
+          <h2>Agentes y orquestadores demostrables</h2>
           <p>
-            Esta sección muestra la parte más avanzada del portfolio: proyectos con estructura de producto, diseño de dominio
+            La parte más avanzada del portfolio: proyectos con estructura de producto, diseño de dominio
             y mayor complejidad arquitectónica.
           </p>
         </div>
 
         <div class="cards-grid cards-grid-wide">
           <article class="project-card product-card-featured">
-            <span class="project-kicker">Producto destacado</span>
+            <div class="card-topline">
+              <span class="project-kicker">Producto destacado</span>
+              <span class="scope-pill">Contratos</span>
+            </div>
             <h3>Agente Supervisado de Obligaciones Contractuales</h3>
             <p>
               Agente para extraer obligaciones, fechas, riesgos, dependencias y evidencias trazables desde contratos,
               anexos y documentación relacionada.
             </p>
             <div class="tags">
-              <span>Contratos</span>
+              <span>Obligaciones</span>
               <span>Evidencias</span>
-              <span>FastAPI</span>
-              <span>RAG</span>
+              <span>RAG documental</span>
+              <span>Supervisión</span>
             </div>
             <a href="https://github.com/chema74/Agentes_IA/tree/main/products/contract-obligations-agent" target="_blank" rel="noopener noreferrer">
               Ver producto →
@@ -83,13 +124,16 @@
           </article>
 
           <article class="project-card">
-            <span class="project-kicker">Compliance</span>
+            <div class="card-topline">
+              <span class="project-kicker">Cumplimiento</span>
+              <span class="scope-pill">Auditoría</span>
+            </div>
             <h3>Agente de Evidencias de Cumplimiento Normativo</h3>
             <p>
               Agente orientado a organizar evidencias, apoyar auditorías y estructurar documentación de cumplimiento.
             </p>
             <div class="tags">
-              <span>Compliance</span>
+              <span>Cumplimiento</span>
               <span>Auditoría</span>
               <span>Evidencias</span>
             </div>
@@ -98,8 +142,11 @@
             </a>
           </article>
 
-          <article class="project-card">
-            <span class="project-kicker">Comercio internacional</span>
+          <article class="project-card featured-card">
+            <div class="card-topline">
+              <span class="project-kicker">Comercio internacional</span>
+              <span class="scope-pill">Riesgo</span>
+            </div>
             <h3>Inteligencia Geopolítica Comercial</h3>
             <p>
               Agente para explorar señales de riesgo geopolítico, comercio internacional y análisis estratégico de mercados.
@@ -115,15 +162,18 @@
           </article>
 
           <article class="project-card">
-            <span class="project-kicker">Logística</span>
+            <div class="card-topline">
+              <span class="project-kicker">Logística</span>
+              <span class="scope-pill">Operaciones</span>
+            </div>
             <h3>Logística Autónoma Supervisada</h3>
             <p>
               Agente aplicado a incidencias logísticas, supervisión operativa y posibles flujos de recuperación ante fallos.
             </p>
             <div class="tags">
               <span>Logística</span>
-              <span>Operaciones</span>
-              <span>Supervisión</span>
+              <span>Incidencias</span>
+              <span>Recuperación</span>
             </div>
             <a href="https://github.com/chema74/Agentes_IA/tree/main/products/a2a-self-healing-logistics-agent" target="_blank" rel="noopener noreferrer">
               Ver producto →
@@ -131,10 +181,13 @@
           </article>
 
           <article class="project-card">
-            <span class="project-kicker">Políticas</span>
+            <div class="card-topline">
+              <span class="project-kicker">Políticas</span>
+              <span class="scope-pill">Gobernanza</span>
+            </div>
             <h3>Agente de Cumplimiento de Políticas</h3>
             <p>
-              Proyecto para evaluar políticas, revisar reglas internas y explorar flujos de enforcement supervisado.
+              Proyecto para evaluar políticas, revisar reglas internas y explorar flujos de aplicación supervisada.
             </p>
             <div class="tags">
               <span>Políticas</span>
@@ -147,15 +200,18 @@
           </article>
 
           <article class="project-card caution-card">
-            <span class="project-kicker">Legal supervisado</span>
+            <div class="card-topline">
+              <span class="project-kicker">Legal supervisado</span>
+              <span class="scope-pill">Dominio sensible</span>
+            </div>
             <h3>Asistente Legal Supervisado</h3>
             <p>
-              Exploración de flujos legales asistidos por IA, organización de argumentos y apoyo preliminar con límites claros.
+              Exploración de flujos legales asistidos por inteligencia artificial, organización de argumentos y apoyo preliminar con límites claros.
             </p>
             <div class="tags">
               <span>Legal</span>
-              <span>Supervisión humana</span>
               <span>Documentos</span>
+              <span>Revisión profesional</span>
             </div>
             <a href="https://github.com/chema74/Agentes_IA/tree/main/products/autonomous-legal-counsel-agent" target="_blank" rel="noopener noreferrer">
               Ver producto →
@@ -163,7 +219,10 @@
           </article>
 
           <article class="project-card caution-card">
-            <span class="project-kicker">Psicoeducativo</span>
+            <div class="card-topline">
+              <span class="project-kicker">Psicoeducativo</span>
+              <span class="scope-pill">Dominio sensible</span>
+            </div>
             <h3>Orquestador Psicoeducativo Supervisado</h3>
             <p>
               Orquestador de flujos conversacionales sensibles con estructura de apoyo, derivación y límites de dominio.
@@ -171,7 +230,7 @@
             <div class="tags">
               <span>Psicoeducativo</span>
               <span>Orquestación</span>
-              <span>Límites</span>
+              <span>Derivación</span>
             </div>
             <a href="https://github.com/chema74/Agentes_IA/tree/main/products/nspa-psychological-orchestrator" target="_blank" rel="noopener noreferrer">
               Ver producto →
@@ -179,15 +238,18 @@
           </article>
 
           <article class="project-card caution-card">
-            <span class="project-kicker">Educación</span>
+            <div class="card-topline">
+              <span class="project-kicker">Educación</span>
+              <span class="scope-pill">Integridad</span>
+            </div>
             <h3>Orquestador de Integridad Educativa</h3>
             <p>
-              Agente para explorar integridad académica, revisión de procesos educativos y supervisión de uso de IA.
+              Agente para explorar integridad académica, revisión de procesos educativos y supervisión de uso de inteligencia artificial.
             </p>
             <div class="tags">
               <span>Educación</span>
               <span>Integridad</span>
-              <span>IA responsable</span>
+              <span>Uso responsable</span>
             </div>
             <a href="https://github.com/chema74/Agentes_IA/tree/main/products/agentic-learning-integrity-orchestrator" target="_blank" rel="noopener noreferrer">
               Ver producto →
@@ -195,7 +257,10 @@
           </article>
 
           <article class="project-card caution-card">
-            <span class="project-kicker">Organización</span>
+            <div class="card-topline">
+              <span class="project-kicker">Organización</span>
+              <span class="scope-pill">Cambio</span>
+            </div>
             <h3>Orquestador de Cambio Organizacional</h3>
             <p>
               Proyecto orientado a procesos de cambio, coaching organizacional supervisado y acompañamiento metodológico.
@@ -203,7 +268,7 @@
             <div class="tags">
               <span>Cambio</span>
               <span>Organización</span>
-              <span>Coaching</span>
+              <span>Acompañamiento</span>
             </div>
             <a href="https://github.com/chema74/Agentes_IA/tree/main/products/change-process-coaching-orchestrator" target="_blank" rel="noopener noreferrer">
               Ver producto →
@@ -234,6 +299,7 @@
       <div class="footer-links">
         <a href="index.html">Inicio</a>
         <a href="proyectos.html">Proyectos</a>
+        <a href="contacto.html">Contacto</a>
         <a href="https://github.com/chema74" target="_blank" rel="noopener noreferrer">GitHub</a>
       </div>
     </div>
