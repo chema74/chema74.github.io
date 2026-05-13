@@ -1,393 +1,95 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
-  <title>Proyectos | Txema Ríos</title>
-
-  <meta
-    name="description"
-    content="Proyectos de portfolio técnico de Txema Ríos: agentes de inteligencia artificial aplicada, RAG documental, automatización, licitaciones, contratos, comercio exterior y dashboards."
-  />
-  <meta name="author" content="Txema Ríos" />
-  <meta name="theme-color" content="#0b1020" />
-  <meta name="robots" content="index, follow" />
-
-  <link rel="canonical" href="https://chema74.github.io/proyectos.html" />
-
-  <meta property="og:title" content="Proyectos | Txema Ríos" />
-  <meta
-    property="og:description"
-    content="Catálogo de demos y prototipos técnicos de inteligencia artificial aplicada, agentes, RAG documental y automatización."
-  />
-  <meta property="og:type" content="website" />
-  <meta property="og:url" content="https://chema74.github.io/proyectos.html" />
-  <meta name="twitter:card" content="summary" />
-
-  <link rel="stylesheet" href="assets/css/styles.css" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyectos IA | Txema Ríos</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; line-height: 1.6; color: #333; background: #f9fafb; }
+        header { background: #0d1117; color: white; padding: 20px 0; box-shadow: 0 1px 3px rgba(0,0,0,0.1); }
+        header nav { max-width: 1200px; margin: 0 auto; padding: 0 20px; display: flex; gap: 30px; align-items: center; }
+        header a { color: white; text-decoration: none; font-size: 14px; }
+        header a:hover { color: #58a6ff; }
+        main { max-width: 1200px; margin: 40px auto; padding: 0 20px; }
+        h1 { font-size: 32px; margin-bottom: 10px; }
+        h2 { font-size: 18px; color: #666; margin-bottom: 30px; font-weight: 400; }
+        .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 20px; margin-top: 30px; }
+        .card { background: white; border: 1px solid #e0e0e0; border-radius: 8px; padding: 20px; transition: all 0.3s; }
+        .card:hover { box-shadow: 0 4px 12px rgba(0,0,0,0.1); border-color: #0969da; }
+        .card h3 { font-size: 18px; margin-bottom: 8px; color: #0969da; }
+        .card p { font-size: 14px; color: #666; margin-bottom: 12px; }
+        .card a { color: #0969da; text-decoration: none; font-weight: 500; }
+        .card a:hover { text-decoration: underline; }
+        .badge { display: inline-block; background: #f0f0f0; padding: 4px 8px; border-radius: 4px; font-size: 12px; color: #666; margin-right: 5px; }
+        footer { background: #0d1117; color: #888; text-align: center; padding: 20px; margin-top: 60px; font-size: 12px; }
+    </style>
 </head>
-
 <body>
-  <a class="skip-link" href="#contenido">Saltar al contenido principal</a>
+    <header>
+        <nav>
+            <strong>Txema Ríos</strong>
+            <a href="index.html">Inicio</a>
+            <a href="proyectos.html">Proyectos</a>
+            <a href="productos.html">Productos</a>
+            <a href="index.html#areas">Áreas</a>
+            <a href="index.html#perfil">Perfil</a>
+            <a href="contacto.html">Contacto</a>
+            <a href="https://github.com/chema74" target="_blank" rel="noopener noreferrer">GitHub</a>
+        </nav>
+    </header>
 
-  <header class="site-header">
-    <div class="container header-inner">
-      <a class="brand" href="index.html" aria-label="Inicio">
-        <span class="brand-mark" aria-hidden="true">IA</span>
-        <span class="brand-text">
-          <strong>Txema Ríos</strong>
-          <small>Portfolio técnico</small>
-        </span>
-      </a>
+    <main>
+        <h1>Proyectos de IA Aplicada</h1>
+        <h2>Monorrepos con laboratorios reproducibles y agentes locales.</h2>
 
-      <nav class="main-nav" aria-label="Navegación principal">
-        <a href="index.html">Inicio</a>
-        <a class="active" href="proyectos.html" aria-current="page">Proyectos</a>
-        <a href="productos.html">Productos</a>
-        <a href="index.html#areas">Áreas</a>
-        <a href="index.html#perfil">Perfil</a>
-        <a href="contacto.html">Contacto</a>
-        <a href="https://github.com/chema74" target="_blank" rel="noopener noreferrer">GitHub</a>
-      </nav>
-    </div>
-  </header>
+        <div class="grid">
+            <div class="card">
+                <h3>🤖 Agentes IA</h3>
+                <p><span class="badge">Portfolio</span><span class="badge">Python</span></p>
+                <p>Portfolio técnico de agentes IA aplicada a negocio, documentación y automatización empresarial.</p>
+                <a href="https://github.com/chema74/Agentes_IA" target="_blank">Ver en GitHub →</a>
+            </div>
 
-  <main id="contenido">
-    <section class="hero hero-compact">
-      <div class="container page-hero-grid">
-        <div>
-          <p class="eyebrow">Portfolio · demos · prototipos ejecutables</p>
-          <h1>Proyectos de inteligencia artificial aplicada</h1>
-          <p class="hero-lead">
-            Selección completa del bloque <code>portfolio/</code>: agentes, RAG
-            (<em>Retrieval-Augmented Generation – Generación Aumentada por Recuperación</em>) documental,
-            análisis de negocio, contratación, normativa, atención al cliente y dashboards consultables en lenguaje natural.
-          </p>
-          <p class="hero-note">
-            Cada proyecto funciona como evidencia técnica. Muestra enfoque, estructura y límites; no pretende presentarse
-            como solución empresarial cerrada.
-          </p>
+            <div class="card">
+                <h3>🧪 10 Laboratorios IA</h3>
+                <p><span class="badge">Monorepo</span><span class="badge">Local-first</span></p>
+                <p>Monorepo con 10 laboratorios: RAG, LLM evaluation, observabilidad, privacidad, backend, gobernanza, agentes enterprise, seguridad, Microsoft y Google.</p>
+                <a href="https://github.com/chema74/laboratorios-ia-aplicada" target="_blank">Ver en GitHub →</a>
+            </div>
+
+            <div class="card">
+                <h3>📊 IA para Decisión y Sistemas</h3>
+                <p><span class="badge">Monorepo</span><span class="badge">Big Data</span></p>
+                <p>Inteligencia de decisión con Big Data, sistemas API-first de IA y evaluación operativa de agentes.</p>
+                <a href="https://github.com/chema74/ia-decision-sistemas" target="_blank">Ver en GitHub →</a>
+            </div>
+
+            <div class="card">
+                <h3>🏢 Agentes para PYMES</h3>
+                <p><span class="badge">Portfolio</span><span class="badge">12 Agentes</span></p>
+                <p>10 agentes IA locales para PYMES + 2 agentes adicionales (ESG y finanzas). Arquitectura modular, tests, demo reproducible.</p>
+                <a href="https://github.com/chema74/agentes-ia-pymes" target="_blank">Ver en GitHub →</a>
+            </div>
+
+            <div class="card">
+                <h3>📈 Evaluador de Madurez</h3>
+                <p><span class="badge">PYMES</span><span class="badge">Auditoría</span></p>
+                <p>Sistema automatizado de auditoría y evaluación de madurez en IA para PYMES.</p>
+                <a href="https://github.com/chema74/evaluador-madurez-ia-pymes" target="_blank">Ver en GitHub →</a>
+            </div>
+
+            <div class="card">
+                <h3>🌐 Web Pública</h3>
+                <p><span class="badge">GitHub Pages</span></p>
+                <p>Web pública del portfolio técnico: proyectos, agentes IA, RAG documental y automatización.</p>
+                <a href="https://github.com/chema74/chema74.github.io" target="_blank">Ver en GitHub →</a>
+            </div>
         </div>
+    </main>
 
-        <aside class="page-summary-card">
-          <span class="card-label">Catálogo público</span>
-          <strong>11 proyectos</strong>
-          <p>Demos orientadas a dominios concretos, con enlaces directos al repositorio principal.</p>
-        </aside>
-      </div>
-    </section>
-
-    <section class="section section-tight">
-      <div class="container lens-grid" aria-label="Lectura rápida del catálogo">
-        <article>
-          <span class="area-index">01</span>
-          <h2>Agentes</h2>
-          <p>Flujos supervisados, herramientas, clasificación, soporte y toma de decisiones asistida.</p>
-        </article>
-
-        <article>
-          <span class="area-index">02</span>
-          <h2>Documentos</h2>
-          <p>Recuperación semántica, consulta de contratos, normativa y documentación interna con evidencias.</p>
-        </article>
-
-        <article>
-          <span class="area-index">03</span>
-          <h2>Negocio</h2>
-          <p>Comercio exterior, licitaciones, evaluación de ideas, dashboards y lenguaje natural sobre datos.</p>
-        </article>
-      </div>
-    </section>
-
-    <section class="section" id="proyecto-destacado-agentes-ia-pymes">
-      <div class="container">
-        <div class="section-heading">
-          <p class="eyebrow">Nuevo · proyecto destacado</p>
-          <h2>Agentes locales para PYMES</h2>
-          <p>Arquitectura modular, validación y evidencias reproducibles</p>
-        </div>
-
-        <article class="project-card featured-card featured-project-showcase">
-          <div class="featured-project-layout">
-            <div class="featured-project-copy">
-              <div class="card-topline">
-                <span class="project-kicker">Nuevo</span>
-                <span class="scope-pill">Arquitectura modular · Demo local</span>
-              </div>
-              <h3>Agentes locales para PYMES: validación, consola y evidencias</h3>
-              <p>
-                Repositorio técnico en castellano con 10 agentes locales para PYMES (<em>Small and Medium-sized Enterprises – Pequeñas y Medianas Empresas</em>),
-                validación automatizada, consola local, edición guiada, ejecución local, informes, histórico, comparador y paquete de evidencias reproducibles.
-              </p>
-              <p>
-                Proyecto de portfolio orientado a demostrar estructura técnica, trazabilidad y límites claros antes de hablar de agentes productivos.
-                La V1 local trabaja con datos ficticios y mantiene la decisión final bajo revisión humana.
-              </p>
-              <p class="project-limits">
-                <strong>Límites:</strong> Proyecto local de portfolio. No incluye IA (<em>Artificial Intelligence – Inteligencia Artificial</em>) funcional,
-                API (<em>Application Programming Interface – Interfaz de Programación de Aplicaciones</em>) productiva, dashboard productivo, Google Workspace,
-                integraciones reales ni datos reales.
-              </p>
-              <a href="https://github.com/chema74/agentes-ia-pymes" target="_blank" rel="noopener noreferrer">Ver repositorio →</a>
-            </div>
-
-            <div class="featured-project-gallery" aria-label="Capturas del proyecto">
-              <figure>
-                <img
-                  src="assets/img/proyectos/agentes-ia-pymes/04-consola-local-resumen.png"
-                  alt="Consola local con resumen de agentes y lista de 10 agentes disponibles."
-                  loading="lazy"
-                />
-              </figure>
-              <figure>
-                <img
-                  src="assets/img/proyectos/agentes-ia-pymes/05-edicion-guiada-agente.png"
-                  alt="Edición guiada en la consola local con un agente seleccionado."
-                  loading="lazy"
-                />
-              </figure>
-              <figure>
-                <img
-                  src="assets/img/proyectos/agentes-ia-pymes/06-ejecucion-agente-informe.png"
-                  alt="Ejecución de un agente desde la consola local con salida de informe y recomendación de revisión humana."
-                  loading="lazy"
-                />
-              </figure>
-              <figure>
-                <img
-                  src="assets/img/proyectos/agentes-ia-pymes/08-indice-evidencias.png"
-                  alt="Índice HTML del paquete de evidencias con enlaces a salidas generadas."
-                  loading="lazy"
-                />
-              </figure>
-            </div>
-          </div>
-        </article>
-      </div>
-    </section>
-
-    <section class="section" id="todos-los-proyectos">
-      <div class="container">
-        <div class="section-heading">
-          <p class="eyebrow">11 proyectos</p>
-          <h2>Demos y prototipos públicos</h2>
-          <p>
-            Una lectura ordenada del portfolio: qué problema aborda cada proyecto, en qué dominio opera
-            y qué tipo de capacidad técnica permite revisar.
-          </p>
-        </div>
-
-        <div class="cards-grid cards-grid-wide">
-          <article class="project-card featured-card">
-            <div class="card-topline">
-              <span class="project-kicker">P01</span>
-              <span class="scope-pill">Análisis estratégico</span>
-            </div>
-            <h3>Inteligencia Comercial Internacional</h3>
-            <p>
-              Agente orientado a comparar países, sectores y oportunidades de mercado mediante análisis asistido por inteligencia artificial.
-            </p>
-            <div class="tags">
-              <span>Comercio exterior</span>
-              <span>Mercados</span>
-              <span>Riesgo-país</span>
-            </div>
-            <a href="https://github.com/chema74/Agentes_IA/tree/main/portfolio/p01-inteligencia-comercial-internacional" target="_blank" rel="noopener noreferrer">
-              Ver proyecto →
-            </a>
-          </article>
-
-          <article class="project-card">
-            <div class="card-topline">
-              <span class="project-kicker">P02</span>
-              <span class="scope-pill">Agente operativo</span>
-            </div>
-            <h3>Copiloto Operativo Multi-Herramienta</h3>
-            <p>
-              Prototipo de agente capaz de coordinar herramientas y resolver tareas encadenadas de forma asistida.
-            </p>
-            <div class="tags">
-              <span>Agentes</span>
-              <span>Herramientas</span>
-              <span>Automatización</span>
-            </div>
-            <a href="https://github.com/chema74/Agentes_IA/tree/main/portfolio/p02-agente-multi-herramienta" target="_blank" rel="noopener noreferrer">
-              Ver proyecto →
-            </a>
-          </article>
-
-          <article class="project-card">
-            <div class="card-topline">
-              <span class="project-kicker">P03</span>
-              <span class="scope-pill">Sector público</span>
-            </div>
-            <h3>Asistente de Análisis de Licitaciones</h3>
-            <p>
-              Demo para apoyar la revisión inicial de oportunidades públicas, criterios relevantes y encaje preliminar.
-            </p>
-            <div class="tags">
-              <span>Licitaciones</span>
-              <span>Análisis documental</span>
-              <span>Criterios</span>
-            </div>
-            <a href="https://github.com/chema74/Agentes_IA/tree/main/portfolio/p03-agente-licitaciones" target="_blank" rel="noopener noreferrer">
-              Ver proyecto →
-            </a>
-          </article>
-
-          <article class="project-card">
-            <div class="card-topline">
-              <span class="project-kicker">P04</span>
-              <span class="scope-pill">Recursos humanos</span>
-            </div>
-            <h3>Asistente de Preselección de Candidatos</h3>
-            <p>
-              Prototipo para clasificar perfiles, comparar candidaturas contra criterios y apoyar procesos de selección con revisión humana.
-            </p>
-            <div class="tags">
-              <span>Clasificación</span>
-              <span>Candidaturas</span>
-              <span>Supervisión humana</span>
-            </div>
-            <a href="https://github.com/chema74/Agentes_IA/tree/main/portfolio/p04-agente-rrhh-candidatos" target="_blank" rel="noopener noreferrer">
-              Ver proyecto →
-            </a>
-          </article>
-
-          <article class="project-card featured-card">
-            <div class="card-topline">
-              <span class="project-kicker">P05</span>
-              <span class="scope-pill">RAG documental</span>
-            </div>
-            <h3>RAG de Documentación Interna</h3>
-            <p>
-              Demo para consultar documentos internos en lenguaje natural mediante recuperación contextual y respuestas apoyadas en fragmentos relevantes.
-            </p>
-            <div class="tags">
-              <span>Recuperación semántica</span>
-              <span>Documentación</span>
-              <span>Evidencias</span>
-            </div>
-            <a href="https://github.com/chema74/Agentes_IA/tree/main/portfolio/p05-rag-documentacion-interna" target="_blank" rel="noopener noreferrer">
-              Ver proyecto →
-            </a>
-          </article>
-
-          <article class="project-card">
-            <div class="card-topline">
-              <span class="project-kicker">P06</span>
-              <span class="scope-pill">Contratos</span>
-            </div>
-            <h3>Consulta Supervisada de Contratos</h3>
-            <p>
-              Demo documental para consultar contratos, recuperar fragmentos relevantes y responder con contexto verificable.
-            </p>
-            <div class="tags">
-              <span>Contratos</span>
-              <span>Consulta documental</span>
-              <span>Trazabilidad</span>
-            </div>
-            <a href="https://github.com/chema74/Agentes_IA/tree/main/portfolio/p06-rag-contratos-legales" target="_blank" rel="noopener noreferrer">
-              Ver proyecto →
-            </a>
-          </article>
-
-          <article class="project-card">
-            <div class="card-topline">
-              <span class="project-kicker">P07</span>
-              <span class="scope-pill">Soporte</span>
-            </div>
-            <h3>Asistente de Atención al Cliente Supervisado</h3>
-            <p>
-              Chatbot de primer nivel orientado a soporte, preguntas frecuentes, consistencia de respuesta y posible escalado humano.
-            </p>
-            <div class="tags">
-              <span>Atención al cliente</span>
-              <span>Chatbot</span>
-              <span>Escalado</span>
-            </div>
-            <a href="https://github.com/chema74/Agentes_IA/tree/main/portfolio/p07-chatbot-atencion-cliente" target="_blank" rel="noopener noreferrer">
-              Ver proyecto →
-            </a>
-          </article>
-
-          <article class="project-card">
-            <div class="card-topline">
-              <span class="project-kicker">P08</span>
-              <span class="scope-pill">Normativa</span>
-            </div>
-            <h3>Asistente de Consulta Normativa Comercial</h3>
-            <p>
-              Proyecto aplicado a normativa comercial, comercio exterior y recuperación de información regulatoria.
-            </p>
-            <div class="tags">
-              <span>Regulación</span>
-              <span>Comercio</span>
-              <span>Consulta normativa</span>
-            </div>
-            <a href="https://github.com/chema74/Agentes_IA/tree/main/portfolio/p08-rag-normativa-comercio" target="_blank" rel="noopener noreferrer">
-              Ver proyecto →
-            </a>
-          </article>
-
-          <article class="project-card">
-            <div class="card-topline">
-              <span class="project-kicker">P09</span>
-              <span class="scope-pill">Validación inicial</span>
-            </div>
-            <h3>Evaluador Inicial de Ideas de Negocio</h3>
-            <p>
-              Herramienta de exploración para analizar ideas, priorizar hipótesis y estructurar criterios de viabilidad.
-            </p>
-            <div class="tags">
-              <span>Negocio</span>
-              <span>Hipótesis</span>
-              <span>Priorización</span>
-            </div>
-            <a href="https://github.com/chema74/Agentes_IA/tree/main/portfolio/p09-evaluador-ideas-negocio" target="_blank" rel="noopener noreferrer">
-              Ver proyecto →
-            </a>
-          </article>
-
-          <article class="project-card">
-            <div class="card-topline">
-              <span class="project-kicker">P10</span>
-              <span class="scope-pill">Datos</span>
-            </div>
-            <h3>Dashboard Consultable en Lenguaje Natural</h3>
-            <p>
-              Demo para consultar información tabular con lenguaje natural y acercar datos de negocio a usuarios no técnicos.
-            </p>
-            <div class="tags">
-              <span>Dashboard</span>
-              <span>Lenguaje natural</span>
-              <span>Datos de negocio</span>
-            </div>
-            <a href="https://github.com/chema74/Agentes_IA/tree/main/portfolio/p10-dashboard-lenguaje-natural" target="_blank" rel="noopener noreferrer">
-              Ver proyecto →
-            </a>
-          </article>
-        </div>
-
-        <div class="section-actions">
-          <a class="btn btn-secondary" href="productos.html">Ver productos técnicos</a>
-          <a class="btn btn-secondary" href="index.html">Volver al inicio</a>
-        </div>
-      </div>
-    </section>
-  </main>
-
-  <footer class="site-footer">
-    <div class="container footer-inner">
-      <span>© 2026 – Txema Ríos</span>
-      <div class="footer-links">
-        <a href="index.html">Inicio</a>
-        <a href="productos.html">Productos</a>
-        <a href="contacto.html">Contacto</a>
-        <a href="https://github.com/chema74" target="_blank" rel="noopener noreferrer">GitHub</a>
-      </div>
-    </div>
-  </footer>
+    <footer>
+        <p>© 2025 Txema Ríos. Licencia CC BY-SA 4.0.</p>
+    </footer>
 </body>
 </html>
